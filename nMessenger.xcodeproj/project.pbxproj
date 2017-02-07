@@ -19,6 +19,7 @@
 		19F4C12E1D6CF4550044E340 /* UIFontTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F4C12C1D6CF4550044E340 /* UIFontTests.swift */; };
 		19F4C1311D6CF4C00044E340 /* BubbleConfigurationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F4C12F1D6CF4C00044E340 /* BubbleConfigurationTests.swift */; };
 		19F4C1321D6CF4C00044E340 /* MessageNodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F4C1301D6CF4C00044E340 /* MessageNodeTests.swift */; };
+		2CEE54A71E49EAB100D99F00 /* AsyncDisplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CEE54A61E49EAB100D99F00 /* AsyncDisplayKit.framework */; };
 		616280281D8196F700D1F510 /* nMessenger-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 616280271D8196F700D1F510 /* nMessenger-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		616280321D81978000D1F510 /* NMessengerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC87391D63813700F3C21C /* NMessengerViewController.swift */; };
 		616280331D8197AD00D1F510 /* NMessenger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC87381D63813700F3C21C /* NMessenger.swift */; };
@@ -27,7 +28,6 @@
 		616280361D8197BA00D1F510 /* InputBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14C8B681D66273700F8616F /* InputBarView.swift */; };
 		616280371D8197BE00D1F510 /* NMessengerBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC87361D63813700F3C21C /* NMessengerBarView.swift */; };
 		616280381D8197CA00D1F510 /* NMessengerBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1FC87371D63813700F3C21C /* NMessengerBarView.xib */; };
-		616280461D81A5E700D1F510 /* AsyncDisplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616280451D81A5E700D1F510 /* AsyncDisplayKit.framework */; };
 		616280471D81A71500D1F510 /* BubbleConfigurationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC87101D63813700F3C21C /* BubbleConfigurationProtocol.swift */; };
 		616280481D81A71500D1F510 /* ImageBubbleConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC87111D63813700F3C21C /* ImageBubbleConfiguration.swift */; };
 		616280491D81A71500D1F510 /* SimpleBubbleConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FC87121D63813700F3C21C /* SimpleBubbleConfiguration.swift */; };
@@ -186,9 +186,6 @@
 		616280E81D81B84000D1F510 /* shutterBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = F1E73C4F1D760B8300E61960 /* shutterBtn.png */; };
 		616280E91D81B84000D1F510 /* shutterBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1E73C501D760B8300E61960 /* shutterBtn@2x.png */; };
 		616280EA1D81B84000D1F510 /* shutterBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1E73C511D760B8300E61960 /* shutterBtn@3x.png */; };
-		7DC39DF1B4B756DDFD05B787 /* Pods_nMessenger_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1258BEA76A856ADC95493DD /* Pods_nMessenger_iOS.framework */; };
-		86F11903BAF6EDD175EB4990 /* Pods_nMessengerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF61F41CAE7391D9E0ED0C81 /* Pods_nMessengerUITests.framework */; };
-		E3186CCB59F60DAAE6093DE0 /* Pods_nMessengerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECF6E0F01811A56BE9AC7F3 /* Pods_nMessengerTests.framework */; };
 		F13F39E11D650D490021A858 /* InputBarViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13F39E01D650D490021A858 /* InputBarViewProtocol.swift */; };
 		F1418CE71D380B2400C404B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1418CE61D380B2400C404B5 /* AppDelegate.swift */; };
 		F1418CE91D380B2400C404B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1418CE81D380B2400C404B5 /* ViewController.swift */; };
@@ -381,7 +378,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		118604259124D3DC9BCBA458 /* Pods_nMessenger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nMessenger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		190C89BC1D40175200CF3512 /* NMessengerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NMessengerTests.swift; sourceTree = "<group>"; };
 		190C89C01D40181A00CF3512 /* BubbleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleTests.swift; sourceTree = "<group>"; };
 		190C89C11D40181A00CF3512 /* CollectionViewContentNodeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewContentNodeTests.swift; sourceTree = "<group>"; };
@@ -394,20 +390,10 @@
 		19F4C12C1D6CF4550044E340 /* UIFontTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFontTests.swift; sourceTree = "<group>"; };
 		19F4C12F1D6CF4C00044E340 /* BubbleConfigurationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleConfigurationTests.swift; sourceTree = "<group>"; };
 		19F4C1301D6CF4C00044E340 /* MessageNodeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageNodeTests.swift; sourceTree = "<group>"; };
-		5015DB82C8FC66A862A52EA0 /* Pods-nMessengerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nMessengerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-nMessengerTests/Pods-nMessengerTests.release.xcconfig"; sourceTree = "<group>"; };
+		2CEE54A61E49EAB100D99F00 /* AsyncDisplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AsyncDisplayKit.framework; path = Carthage/Build/iOS/AsyncDisplayKit.framework; sourceTree = "<group>"; };
 		616280251D8196F700D1F510 /* NMessenger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NMessenger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		616280271D8196F700D1F510 /* nMessenger-iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "nMessenger-iOS.h"; sourceTree = "<group>"; };
 		616280291D8196F700D1F510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		616280451D81A5E700D1F510 /* AsyncDisplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AsyncDisplayKit.framework; path = Carthage/Build/iOS/AsyncDisplayKit.framework; sourceTree = "<group>"; };
-		63BE651F160382BA665BB69A /* Pods-nMessenger-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nMessenger-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nMessenger-iOS/Pods-nMessenger-iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		6ECF6E0F01811A56BE9AC7F3 /* Pods_nMessengerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nMessengerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A062A8E734DA8EA0F8D8B52 /* Pods-nMessengerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nMessengerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nMessengerUITests/Pods-nMessengerUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		8CF2E3A82AF41784B4946EB9 /* Pods-nMessengerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nMessengerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nMessengerTests/Pods-nMessengerTests.debug.xcconfig"; sourceTree = "<group>"; };
-		96F7715E257CBD466B05C8B0 /* Pods-nMessenger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nMessenger.release.xcconfig"; path = "Pods/Target Support Files/Pods-nMessenger/Pods-nMessenger.release.xcconfig"; sourceTree = "<group>"; };
-		BEDB813AE8C69799AFB56652 /* Pods-nMessengerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nMessengerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-nMessengerUITests/Pods-nMessengerUITests.release.xcconfig"; sourceTree = "<group>"; };
-		C4703F66365CF6634E09EB72 /* Pods-nMessenger-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nMessenger-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-nMessenger-iOS/Pods-nMessenger-iOS.release.xcconfig"; sourceTree = "<group>"; };
-		D1258BEA76A856ADC95493DD /* Pods_nMessenger_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nMessenger_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5F2B49D60E6017D3DF753A1 /* Pods-nMessenger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nMessenger.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nMessenger/Pods-nMessenger.debug.xcconfig"; sourceTree = "<group>"; };
 		F13F39E01D650D490021A858 /* InputBarViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputBarViewProtocol.swift; sourceTree = "<group>"; };
 		F1418CE31D380B2400C404B5 /* nMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1418CE61D380B2400C404B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -586,7 +572,6 @@
 		F1FC873B1D63813700F3C21C /* ModalAlertUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalAlertUtilities.swift; sourceTree = "<group>"; };
 		F1FC873C1D63813700F3C21C /* UIColor+N1Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+N1Colors.swift"; sourceTree = "<group>"; };
 		F1FC873D1D63813700F3C21C /* UIFont+N1Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+N1Fonts.swift"; sourceTree = "<group>"; };
-		FF61F41CAE7391D9E0ED0C81 /* Pods_nMessengerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nMessengerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -594,8 +579,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				616280461D81A5E700D1F510 /* AsyncDisplayKit.framework in Frameworks */,
-				7DC39DF1B4B756DDFD05B787 /* Pods_nMessenger_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -603,6 +586,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CEE54A71E49EAB100D99F00 /* AsyncDisplayKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -610,7 +594,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3186CCB59F60DAAE6093DE0 /* Pods_nMessengerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -618,7 +601,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86F11903BAF6EDD175EB4990 /* Pods_nMessengerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -677,28 +659,9 @@
 		CEEA4FEAB14A1E9BACDB8B3A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				616280451D81A5E700D1F510 /* AsyncDisplayKit.framework */,
-				118604259124D3DC9BCBA458 /* Pods_nMessenger.framework */,
-				D1258BEA76A856ADC95493DD /* Pods_nMessenger_iOS.framework */,
-				6ECF6E0F01811A56BE9AC7F3 /* Pods_nMessengerTests.framework */,
-				FF61F41CAE7391D9E0ED0C81 /* Pods_nMessengerUITests.framework */,
+				2CEE54A61E49EAB100D99F00 /* AsyncDisplayKit.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D1D8C17E0E98D0D1BA1501D1 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E5F2B49D60E6017D3DF753A1 /* Pods-nMessenger.debug.xcconfig */,
-				96F7715E257CBD466B05C8B0 /* Pods-nMessenger.release.xcconfig */,
-				63BE651F160382BA665BB69A /* Pods-nMessenger-iOS.debug.xcconfig */,
-				C4703F66365CF6634E09EB72 /* Pods-nMessenger-iOS.release.xcconfig */,
-				8CF2E3A82AF41784B4946EB9 /* Pods-nMessengerTests.debug.xcconfig */,
-				5015DB82C8FC66A862A52EA0 /* Pods-nMessengerTests.release.xcconfig */,
-				8A062A8E734DA8EA0F8D8B52 /* Pods-nMessengerUITests.debug.xcconfig */,
-				BEDB813AE8C69799AFB56652 /* Pods-nMessengerUITests.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		F1418CDA1D380B2400C404B5 = {
@@ -710,7 +673,6 @@
 				616280261D8196F700D1F510 /* nMessenger-iOS */,
 				F1418CE41D380B2400C404B5 /* Products */,
 				CEEA4FEAB14A1E9BACDB8B3A /* Frameworks */,
-				D1D8C17E0E98D0D1BA1501D1 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1747,7 +1709,6 @@
 /* Begin XCBuildConfiguration section */
 		6162802F1D8196F700D1F510 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63BE651F160382BA665BB69A /* Pods-nMessenger-iOS.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1774,7 +1735,6 @@
 		};
 		616280301D8196F700D1F510 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4703F66365CF6634E09EB72 /* Pods-nMessenger-iOS.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1891,11 +1851,14 @@
 		};
 		F1418D0C1D380B2400C404B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5F2B49D60E6017D3DF753A1 /* Pods-nMessenger.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = nMessenger/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1907,11 +1870,14 @@
 		};
 		F1418D0D1D380B2400C404B5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96F7715E257CBD466B05C8B0 /* Pods-nMessenger.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = nMessenger/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1923,7 +1889,6 @@
 		};
 		F1418D0F1D380B2400C404B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8CF2E3A82AF41784B4946EB9 /* Pods-nMessengerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = nMessengerTests/Info.plist;
@@ -1937,7 +1902,6 @@
 		};
 		F1418D101D380B2400C404B5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5015DB82C8FC66A862A52EA0 /* Pods-nMessengerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = nMessengerTests/Info.plist;
@@ -1951,7 +1915,6 @@
 		};
 		F1418D121D380B2400C404B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A062A8E734DA8EA0F8D8B52 /* Pods-nMessengerUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = nMessengerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1964,7 +1927,6 @@
 		};
 		F1418D131D380B2400C404B5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BEDB813AE8C69799AFB56652 /* Pods-nMessengerUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = nMessengerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
